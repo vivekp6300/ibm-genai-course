@@ -1,0 +1,6 @@
+#!/Users/vivek/Code/ibm-genai-course/cal_coach_app/my_env/bin/python3.11
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
